@@ -1,0 +1,16 @@
+{
+    "name": "alekseyzharkov/test-instagram",
+    "description": "test instagram lib",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Aleksey Zharkov",
+            "email": "aleksey.zharkov@onlinesup.com"
+        }
+    ],
+    "require": {
+        "raiym/instagram-php-scraper": "dev-master",
+        "guzzlehttp/guzzle-services": "^1.3",
+        "phpfastcache/phpfastcache": "^8"
+    }
+}

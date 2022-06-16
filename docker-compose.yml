@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  instagram-test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./composer.json:/src/composer.json
+      - ./composer.lock:/src/composer.lock
